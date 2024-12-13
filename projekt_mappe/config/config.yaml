@@ -1,0 +1,13 @@
+# config/config.yaml
+data_files:
+  covariance_matrix: "data/covariance_matrix.xlsx"
+  init_values: "data/init_values.xlsx"
+
+simulation_parameters:
+  mu: [0, 0.07/52, 0.06/52]  # Udvides senere afhængigt af data
+  n_steps: 52
+  n_simulations: 10000
+  delta_t: 1/52
+  horizon: 1
+
+random_seed: 55
